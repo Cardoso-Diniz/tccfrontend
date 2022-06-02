@@ -53,4 +53,4 @@ jobs:
           app-name: 'senai-grupo16-frontend'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_47E35F500CAC4908B455ED01F89995AC }}
-          package: .
+          package: 'build'
