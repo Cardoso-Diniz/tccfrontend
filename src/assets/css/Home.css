@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main_home{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+.container_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    background-color: #CB1E36;
+}
+
+.box_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.h1{
+    font-size: 2em;
+    width: 405px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.icon_header{
+    width: 40px;
+    height: 50px;
+}
+
+.icon_logout{
+    width: 35px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.div_btn_home{
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon_cadastro{
+    display: none;
+}
+
+.h3{
+    display: none;
+}
+
+
+.section_1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container_section{
+    margin-top: 60px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_cadastrar{
+    width: 700px;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #CB1E36;
+    border-radius: 20px;
+}
+
+.h2_cadastrar{
+    font-size: 4em;
+    font-weight: bolder;
+    color: #fff;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.box_form{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.input{
+    width: 500px;
+    height: 40px;
+    margin-top: 35px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    box-shadow: 0px 0px 15px rgba(63, 61, 86, 0.14);
+}
+
+input[type="file"]{
+    display: none;
+}
+
+.label {
+    padding: 20px 10px;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px rgba(63, 61, 86, 0.14);
+    color: #CB1E36;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 35px;
+    cursor: pointer;
+    height: 40px;
+    font-weight: bold;
+}
+
+.cadastrar_campanha{
+    height: 80px;
+    width: 80px;
+    margin-top: 45px;
+    box-shadow: 0px 0px 15px rgba(63, 61, 86, 0.14);
+    border: none;
+    border-radius: 55px;
+    color: #CB1E36;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.cadastrar_campanha_2{
+    display: none;
+    height: 80px;
+    width: 80px;
+    margin-top: 45px;
+    box-shadow: 0px 0px 15px rgba(63, 61, 86, 0.14);
+    border: none;
+    border-radius: 55px;
+    color: #CB1E36;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.img_cadastrar{
+    height: 90px;
+    width: 90px;
+    border-radius: 55px;
+    color: #CB1E36;
+}
+
+.container_section_2{
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box_registro{
+    width: 70%;
+}
+
+.container_table{
+    background-color: #CB1E36;
+    width: 100%;
+    padding: 10px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.h2_registro{
+    font-size: 4em;
+    font-weight: bolder;
+    color: #CB1E36;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.box_thead{
+    width: 100px;
+    font-size: 20px;
+    color: #fff;
+}
+
+th{
+    width: 200px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+td{
+    font-size: 1em;
+    color: #fff;
+    width: 200px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    word-break: normal;
+}
+
+tr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao_acoes{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    height: 28px;
+    width: 28px;
+}
+
+.img_acoes{
+    height: 24px;
+    width: 24px;
+    color: black;
+}
+
+.box_botao{
+    display: flex;
+    width: 60px;
+    justify-content: space-between;
+}
+
+.checkbox{
+    height: 24px;
+    width: 24px;
+}
+
+footer{
+    height: 100px;
+}
+
+
+@media (max-width: 450px){
+
+    body{
+        background-color: #CB1E36;
+    }
+
+    .section_1{
+        background-color: #CB1E36;
+        height: 480px;
+    }
+
+    .img_img{
+        display: none;
+    }
+    
+    .container_section{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .box_cadastrar{
+        background-color: #fff;
+        height: 460px;
+        width: 280px;
+    }
+    
+    .cadastrar_campanha_2{
+        display: flex;
+        height: 60px;
+        width: 60px;
+        margin-bottom: 25px;
+        margin-top: 30px;
+    }
+    
+    .img_cadastrar{
+        height: 60px;
+        width: 60px;
+    }
+
+    .h3{
+        display: flex;
+        color: #fff;
+        font-size: 2em;
+        margin-bottom: 10px;
+        font-weight: normal;
+        width: 280px;
+    }
+    
+    header{
+        height: 80px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .input{
+        height: 30px;
+        width: 200px;
+        border-radius: 7px;
+    }
+
+    .label{
+        height: 30px;
+        width: 200px;
+    }
+
+    .container_header{
+        padding: 0px;
+    }
+
+    .icon_cadastro{
+        display: flex;
+        height: 80px;
+        width: 80px;
+    }
+
+    .box_header{
+        display: none;
+    }
+
+    .icon_header{
+        display: none;
+    }
+
+    .box_preview{
+        display: none;
+    }
+
+    .box_registro{
+        display: none;
+    }
+    
+    .container_section_2{
+        display: none;
+    }
+
+    .section_2{
+        display: none;
+    }
+    
+    .h2_cadastrar{
+        display: none;
+    }
+
+    .cadastrar_campanha{
+        display: none;
+    }
+}

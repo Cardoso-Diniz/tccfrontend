@@ -1,0 +1,56 @@
+.icon_registro{
+    display: none;
+}
+
+@media (max-width: 450px){
+
+    .icon_registro{
+        display: flex;
+        height: 80px;
+        width: 80px;
+    }
+
+    .listaResponsiva{
+        border-radius: 20px;
+        display: block;
+        background-color: aquamarine;
+        height: 650px;
+        width: 300px;
+    }
+
+    .p_info{
+        color: black;
+        margin: 5px;
+    }
+
+    .infoResponsivo{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .h3_resp_campanha{
+        color: black;
+        font-size: 1.5em;
+    }
+
+    .Accordion{
+        border: none;
+    }
+
+    .botaoResp{
+        background: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .h4_resp{
+        color: black;
+        display: flex;
+        flex-direction: row;
+    }
+
+    li{
+        color: #CB1E36;
+    }
+}
